@@ -11,7 +11,7 @@ Mehrsprachensupport ermöglicht es, alle Sensoren flexibel in der gewünschten S
 Als Hardware wird ein **ESP32** benötigt, der eine Baudrate von **20 kbit/s** unterstützt.  
 - Eine elegante Lösung, ideal für alle ohne viel Erfahrung mit ESP oder Bastelprojekten, ist das Klick-/Steck-System [ATOM S3 Lite](https://docs.m5stack.com/en/core/AtomS3%20Lite) mit einem [ATOM CAN Modul](https://docs.m5stack.com/en/atom/atom_can).
 - Ahnlich unkomplitziert lässt sich ein [AtomS3U](https://docs.m5stack.com/en/core/AtomS3U) mit einem [Unit Mini CAN](https://docs.m5stack.com/en/unit/Unit-Mini%20CAN) einrichten.
-- Erfolgreich getestet wurden auch das **ESP32-S3-WROOM-Board** und ein **WaveShare ESP32-S3 Mini** in Kombination mit dem kompatiblen **Waveshare SN65HVD230** (3,3V) CAN-Transceiver.
+- Erfolgreich getestet wurden auch das **ESP32-S3-WROOM-Board**, **ESP32-C6-WROOM-1(U)** und ein **WaveShare ESP32-S3 Mini** in Kombination mit dem kompatiblen **Waveshare SN65HVD230** (3,3V) CAN-Transceiver.
 
 Eine Übersicht unterstützter ESP32-Varianten und deren unterstützte Bitrate findest du in der folgenden [Tabelle](https://esphome.io/components/canbus/esp32_can).
 
